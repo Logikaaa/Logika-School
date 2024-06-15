@@ -1,0 +1,156 @@
+/* styles.css */
+
+/* Загальні стилі */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #7d3cff;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* колір при наведенні курсору */
+}
+
+main {
+    padding: 20px;
+    margin: 20px; /* Відступи навколо основного вмісту */
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+h2 {
+    color: #7d3cff;
+    margin-top: 20px; /* Відступ зверху для заголовків */
+}
+
+/* Стилі для посилань у навігації */
+
+nav ul li a.active {
+    color: #ffd700; /* колір для активного посилання */
+    border-bottom: 2px solid #ffd700; /* лінія під активним посиланням */
+}
+
+/* Стилі для посилань у розділі "Чому обирають наш курс" */
+
+#courses h3 {
+    color: #7d3cff;
+    margin-top: 20px;
+}
+
+#courses p {
+    margin-bottom: 15px;
+}
+
+#courses p strong {
+    color: #7d3cff;
+}
+
+/* Стилі для нижнього колонтитулу */
+
+footer {
+    background-color: #7d3cff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Додаткові стилі для оформлення розділів та тексту */
+
+section:nth-child(even) {
+    background-color: #e6ccff; /* альтернативний колір для парних розділів */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Стилі для кнопки "Вгору" */
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #7d3cff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#scroll-to-top:hover {
+    background-color: #ffd700; /* колір при наведенні курсору */
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+}
+/* Додайте медіа-запити для маленьких екранів */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+/* Стилі для таблиць */
+.tabl {
+    margin-bottom: 20px;
