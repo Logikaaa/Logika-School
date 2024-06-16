@@ -154,3 +154,45 @@ p {
 /* Стилі для таблиць */
 .tabl {
     margin-bottom: 20px;
+}
+.tabl table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+.tabl td, .tabl th {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Стилі для рядків таблиць */
+.tabl tr {
+    background-color: #f8f8f8;
+}
+.tabl tr.pavlo {
+    background-color: #ffd700; /* змініть на ваш колір */
+}
+.tabl tr.sveta {
+    background-color: #7d3cff; /* змініть на ваш колір */
+}
+.tabl tr.dana {
+    background-color: #00ff00; /* змініть на ваш колір */
+}
+.tabl tr.musha {
+    background-color: #ff0000; /* змініть на ваш колір */
+}
+.tabl tr.kurull {
+    background-color: #00ffff; /* змініть на ваш колір */
+}
+.tabl tr.mariana {
+    background-color: #ff00ff; /* змініть на ваш колір */
+}
+
+/* Стилі для опису найкращої групи */
+#best-group .group-description {
+    margin-top: 20px;
+}
+#best-group .group-description p {
+    font-size: 16px;
+    color: #555;
+}
